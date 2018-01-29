@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hot"
+        android:icon="@mipmap/hot"
+        android:title="@string/title_hot" />
+
+    <item
+        android:id="@+id/navigation_maps"
+        android:icon="@mipmap/maps"
+        android:title="@string/title_maps" />
+
+    <item
+        android:id="@+id/navigation_addons"
+        android:icon="@mipmap/addons"
+        android:title="@string/title_addons" />
+    <item
+        android:id="@+id/navigation_skins"
+        android:icon="@mipmap/skins"
+        android:title="@string/title_skins" />
+    <item
+        android:id="@+id/navigation_textures"
+        android:icon="@mipmap/textures"
+        android:title="@string/title_textures" />
+
+</menu>

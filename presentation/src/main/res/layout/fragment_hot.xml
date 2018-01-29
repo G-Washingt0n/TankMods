@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:id="@+id/hot_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/hotFragment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@color/darkGrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:titleTextColor="@color/white">
+
+        <ImageView
+            android:id="@+id/menuBtn_hot_fragmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/menu" />
+
+        <ImageView
+            android:id="@+id/starBtn_hot_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            android:src="@mipmap/star" />
+
+        <TextView
+            android:id="@+id/header_hot_fragmen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hot_toolbar_header" />
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toBottomOf="@id/hot_fragment_layout"
+    android:layout_marginTop="91dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hotFragment_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e7e7e7" />
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

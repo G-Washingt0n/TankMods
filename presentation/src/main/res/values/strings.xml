@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TankMods</string>
+    <string name="title_hot">Hot</string>
+    <string name="title_skins">Skins</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_addons">Addons</string>
+    <string name="title_textures">Textures</string>
+    <string name="hot_toolbar_header">Mods and addons</string>
+    <string name="show_comments">Show all comments</string>
+</resources>

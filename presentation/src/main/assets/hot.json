@@ -1,0 +1,115 @@
+{
+    "user": {
+        "uuid": "9d6175d0-df64-4f68-9e79-46d2cbf31bd7",
+        "name": "John",
+        "lang": "en"
+    },
+    "categories": [
+        {
+            "uuid": "b4885b40-b8e4-4479-855e-3d97cee62045",
+            "name": "Maps"
+        },
+        {
+            "uuid": "902c311e-485b-4ef1-bd64-f27cce71991f",
+            "name": "Addons"
+        },
+        {
+            "uuid": "7715d625-67c3-4a03-b3ad-4ebe726f7073",
+            "name": "Skins"
+        },
+        {
+            "uuid": "02d5a9b6-2ee6-4ad3-9a74-8faec5c03051",
+            "name": "Textures"
+        }
+    ],
+    "feed": [
+        {
+            "uuid": "b431b484-7526-4c18-b80b-906b5e14f686",
+            "type": "horizontal-list-featuring",
+            "items": [
+                {
+                    "uuid": "2eaba929-a209-4602-a823-343bf3b770fd",
+                    "name": "Golden tank mod"
+                },
+                {
+                    "uuid": "9fab9fc3-a571-4021-8f6c-c6bd16e935fb",
+                    "name": "Giant room high-res"
+                },
+                {
+                    "uuid": "71934926-5c7b-4788-a1a4-5ab7568e1175",
+                    "name": "Mr. Dage addon"
+                }
+            ]
+        },
+        {
+            "uuid": "96aaa59e-6c06-400b-9aef-db004babda07",
+            "type": "hero",
+            "title": "Modern Tanks",
+            "thumbnail": "https://placehold.it/173x165",
+            "caption": "This mod allows you to change the appearance of the full list of tanks.",
+            "tags": ["mod", "mini-game"],
+            "likes": 156,
+            "downloads": 240,
+            "cta_type": "open"
+        },
+        {
+            "uuid": "c01be8e5-da6d-4273-a65c-eb33f3ae70aa",
+            "type": "horizontal-list",
+            "items": [
+                {
+                    "uuid": "52feae9b-f5f3-4232-b555-fec4a9959c83d",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "918b9358-fa6c-49b1-bcde-1fd386f2029d",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "20c03c67-e72e-4cec-a7e8-bc40d96a1a44",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "5ea4d012-c604-4f16-87bc-db41e0799eec",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "e171837c-881e-4dac-8383-d01f4d365008",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "eef82206-912f-46e1-ab5b-e5e57e36ea48",
+                    "thumbnail": "https://placehold.it/78x78"
+                },
+                {
+                    "uuid": "39848d24-b348-439c-bc72-76a6048e5530",
+                    "thumbnail": "https://placehold.it/78x78"
+                }
+            ]
+        },
+        {
+            "uuid": "201d1102-8ed8-4520-b888-92f91b2b93b9",
+            "type": "youtube-video-cta",
+            "url": "https://www.youtube.com/watch?v=RIzBnerZ_dM",
+            "cta_type": "open-and-install"
+        },
+        {
+            "uuid": "c1c32cb2-4fc2-49d0-b50e-f694d954069b",
+            "type": "comments",
+            "title": "Recent comments",
+            "items": [
+                {
+                    "uuid": "283e2fc5-3b06-48ca-8415-4c1346e82c85",
+                    "author": {
+                        "name": "Tyler K."
+                    },
+                    "subject": {
+                        "uuid": "2b2b4ecb-1902-419f-9258-4d7f806a5d3b",
+                        "thumbnail": "https://placehold.it/57x57"
+                    },
+                    "text": "World of Tanks - Leo. Today we're looking at the T7 Swedish medium tank, the Leo, a fast well rounded medium tank with a choice of two competitive guns!",
+                    "created_at": "just now"
+                }
+            ]
+        }
+    ]
+}
